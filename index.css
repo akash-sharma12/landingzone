@@ -13,7 +13,6 @@
 
 html {
     font-size: 62.5%;
-    overflow: hidden;
 }
 
 body {
@@ -213,6 +212,51 @@ section {
     color: #fff;
 }
 /* media queries  */
+.footer {
+    border-top: 0.2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    border-top-left-radius: 70% 164px;
+      border-top-right-radius: 70% 164px;
+    flex-direction: column;
+    
+      overflow: hidden;
+      width: 100%;
+}
+
+.footer h2 {
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer .social {
+    margin-left: 20px;
+}
+
+.footer .social ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.footer .social ul li {
+    font-size: 20px;
+}
+
+.footer .social ul li a {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.footer .social ul li a:hover {
+    color: #ffc107; /* Change to the color you prefer */
+}
 
 @media (max-width: 991px) {
     html {
